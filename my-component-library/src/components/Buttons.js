@@ -1,7 +1,17 @@
 import styled from "styled-components";
 import { defaultTheme, typeScale } from "../utils";
+import { applyStyleModifiers } from "styled-components-modifiers";
 
-export const primaryGreen = "#4B5229";
+const BUTTON_MODIFIERS = {
+  small: () => `
+    font-size: ${typeScale.helperText};
+    padding: 8px;
+  `,
+  large: () => `
+    font-size: ${typeScale.header5};
+    padding: 16px 24px;
+  `,
+};
 
 const Button = styled.button`
   padding: 8px 12px;
@@ -46,20 +56,23 @@ export const PrimaryButton = styled(Button)`
     color: ${defaultTheme.textOnDisabled};
     border-color: ${defaultTheme.disabled};
   }
+  ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
 
 export const SecondaryButton = styled(Button)`
   border: 1px solid ${defaultTheme.primaryColor};
   background-color: transparent;
   color: ${defaultTheme.textColor};
-  
+
   &:disabled {
     border: 2px solid ${defaultTheme.disabled};
   }
+  ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
 
 export const TertiaryButton = styled(Button)`
   border: 2px solid transparent;
   background-color: transparent;
   color: ${defaultTheme.textColor};
+  ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
