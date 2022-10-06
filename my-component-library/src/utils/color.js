@@ -16,19 +16,19 @@ export const neutral = {
   600: "#000000",
 };
 
-export const success = {
+export const green = {
   100: "#529E66",
   200: "#367B48",
   300: "#276738",
 };
 
-export const error = {
+export const red = {
   100: "#D0454C",
   200: "#B54248",
   300: "#95353A",
 };
 
-export const warning = {
+export const yellow = {
   100: "#E1C542",
   200: "#CAB23F",
   300: "#B49E35",
