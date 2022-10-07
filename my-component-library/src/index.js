@@ -7,6 +7,7 @@ import {
 } from "./components/Buttons";
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, darkTheme, defaultTheme } from "./utils";
+import { SignUpModal } from "./components";
 
 const App = () => {
   const [useDarkTheme, setUseDarkTheme] = useState(false)
@@ -51,17 +52,7 @@ const App = () => {
           justifyContent: "space-around"
         }}
       >
-        <PrimaryButton modifiers={["small", "success", "primaryButtonSuccess"]}>
-          Primary Button
-        </PrimaryButton>
-        <SecondaryButton
-          modifiers={["large", "warning", "secondaryButtonWarning"]}
-        >
-          Secondary Button
-        </SecondaryButton>
-        <TertiaryButton modifiers={["error", "tertiaryButtonError"]}>
-          Tertiary Button
-        </TertiaryButton>
+        <SignUpModal/>
         <GlobalStyle />
         </div>
       </ThemeProvider>
