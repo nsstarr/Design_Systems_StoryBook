@@ -43,7 +43,7 @@ const App = () => {
         style={{
           background: useDarkTheme
             ? defaultTheme.primaryColor
-            : darkTheme.primaryColor,
+            : darkTheme.primaryBackground,
           width: "100vw",
           height: "90vh",
           display: "flex",
