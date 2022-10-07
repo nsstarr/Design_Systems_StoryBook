@@ -2,7 +2,8 @@ import {primary, neutral, green, red, yellow} from './color'
 import {primaryFont} from './typography.js' 
 
 export const defaultTheme = {
-  primaryColor: "#4B5229",
+  primaryColor: primary[700],
+  primaryBackground: primary[100],
   primaryHoverColor: primary[200],
   primaryActiveColor: primary[300],
   textColorOnPrimary: neutral[100],
@@ -26,11 +27,11 @@ export const defaultTheme = {
 
 export const darkTheme = {
   primaryColor: neutral[100],
-  primaryBackground: primary[700],
+  primaryBackground: "white",
   primaryHoverColor: neutral[200],
   primaryActiveColor: neutral[300],
   textColorOnPrimary: primary[300],
-  textColor: primary[300],
+  textColor: primary[100],
   textColorInverted: neutral[100],
   primaryFont: primaryFont,
   disabled: neutral[400],
