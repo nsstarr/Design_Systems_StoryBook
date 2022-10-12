@@ -9,9 +9,9 @@
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "react-spring": "^9.5.5",
-    "styled-components": "^5.3.6",
+    "styled-components": "^5.0.1",
     "styled-components-modifiers": "^1.2.5",
     "web-vitals": "^2.1.4"
   },
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -52,24 +52,17 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.12",
     "@storybook/addon-actions": "^6.5.12",
-<<<<<<< HEAD
+    "@storybook/addon-backgrounds": "^6.5.12",
+    "@storybook/addon-contexts": "^5.3.14",
     "@storybook/addon-docs": "^6.5.12",
-=======
->>>>>>> 5a88da574eff7cbf9e134a487e32252066f9ef9f
-    "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-interactions": "^6.5.12",
-    "@storybook/addon-links": "^6.5.12",
-    "@storybook/builder-webpack5": "^6.5.12",
-    "@storybook/manager-webpack5": "^6.5.12",
-    "@storybook/node-logger": "^6.5.12",
-    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/preset-create-react-app": "^1.2.0",
     "@storybook/react": "^6.5.12",
-    "@storybook/testing-library": "^0.0.13",
-<<<<<<< HEAD
     "actions": "^1.3.0",
-=======
->>>>>>> 5a88da574eff7cbf9e134a487e32252066f9ef9f
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
