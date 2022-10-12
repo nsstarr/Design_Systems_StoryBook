@@ -22,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -57,7 +57,7 @@
     "@storybook/addon-a11y": "^6.5.12",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-backgrounds": "^6.5.12",
-    "@storybook/addon-contexts": "^5.3.14",
+    "@storybook/addon-contexts": "^5.3.21",
     "@storybook/addon-docs": "^6.5.12",
     "@storybook/addon-knobs": "^6.4.0",
     "@storybook/addon-links": "^5.3.13",
