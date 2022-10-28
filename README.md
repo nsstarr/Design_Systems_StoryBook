@@ -16,7 +16,7 @@ Clone the project, cd into the folder and run:
 To start the app run:
 
 ```bash
-  npm start
+  npm start 
 ```
 
 To open the storybook run:
