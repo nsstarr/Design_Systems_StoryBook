@@ -18,6 +18,7 @@ const ModalWrapper = styled.div`
   position: relative;
   border-radius: 2px;
   background: ${(props) => props.theme.formElementBackground};
+  font-family: ${(props) => props.theme.primaryFont};
 `;
 
 const SignUpHeader = styled.h3`
