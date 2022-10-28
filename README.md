@@ -39,15 +39,7 @@ npm run storybook
 
 ## Wireframes
 
-Please view the react-storybook.fig file to see the pages with colour styles, typescale and button, textfiels and modal components. 
-
-<img src='./my-component-library/src/assets/colours.jpg' width="700px">
-
-All primary colours of this design system are based on the image attached to the colours page. 
-
-The colours were purposely chosen to communicate the semantics of the application and recreate the atmosphere of the season.
-
-The design language was developed with Accessibility, Colour and Typography principles in mind. 
+Please view the react-storybook.fig file to see the pages with colour styles, typescale and button, textfiels and modal components. All primary colours of this design system are based on the image attached to the colours page. The colours were purposely chosen to communicate the semantics of the application and recreate the atmosphere of the season. The design language was developed with Accessibility, Colour and Typography principles in mind. 
 
 ## Tech Stack
 
