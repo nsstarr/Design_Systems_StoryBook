@@ -5,6 +5,7 @@ export const defaultTheme = {
   primaryColor: primary[700],
   primaryBackground: primary[100],
   primaryHoverColor: primary[200],
+  primaryNavHoverColor: primary[500],
   primaryActiveColor: primary[300],
   textColorOnPrimary: neutral[100],
   textColor: primary[500],
@@ -14,6 +15,7 @@ export const defaultTheme = {
   textOnDisabled: neutral[300],
   formElementBackground: neutral[100],
   textOnFormElementBackground: neutral[600],
+  textOnNavbarLinks: primary[500],
   status: {
     warningColor: yellow[100],
     warningColorHover: yellow[200],
