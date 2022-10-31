@@ -36,6 +36,13 @@ To open the storybook run:
 ```bash
 npm run storybook
 ```
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`NODE_OPTIONS=--openssl-legacy-provider`
+
+
 
 ## Wireframes
 
