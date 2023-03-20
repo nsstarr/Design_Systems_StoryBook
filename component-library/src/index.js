@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import {
-  PrimaryButton,
-  SecondaryButton,
-  TertiaryButton,
-} from "./components/Buttons";
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, darkTheme, defaultTheme } from "./utils";
 import { SignUpModal } from "./components";

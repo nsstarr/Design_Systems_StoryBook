@@ -2,7 +2,9 @@
 
 Autumnal Design system built with React & Storybook. 
 
- Originally inspired by [@emmabostian](https://github.com/emmabostian)'s Frontend Masters course, the project started with the idea to design a system with a fall aesthetic that could fit an independent business, farmers market or an autumn funfair. 
+ Inititally inspired by [@emmabostian](https://github.com/emmabostian)'s Introduction Into Design Systems, the project started with the idea to design a system with a fall aesthetic that could fit an independent business, farmers market or an autumn funfair. 
+
+ I built a few components in Figma & coded them up in React & Styled components.
 
 ## Installation
 
@@ -12,11 +14,12 @@ Clone the project, cd into the folder and run:
 ```bash
 git clone https://github.com/anastasia-starostina/Design_Systems_StoryBook
 ``` 
+Open react-storybook.fig file or follow [this link](https://www.figma.com/file/3zh02xDV6hPJiSWtebCgUK/react-storybook?node-id=1%3A3&t=NXR4R4D22ahvMVVu-1) to view the component library in Figma. The pages with colours, typescale, textfields, modal & buttons are on the left-hand side.
 
 Move to the project directory:
 
 ```bash
-cd my-component-library
+cd component-library
 ```
 
 Install dependencies: 
@@ -53,7 +56,7 @@ Please view the react-storybook.fig file to see the pages with colour styles, ty
 - React
 - Storybook
 - Styled Components
-- React Spring
+- React Spring Animation
 
 ## Key Takeaways 
 - Styled Components is a great tool for developing themes in React applications.
